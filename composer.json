@@ -23,6 +23,6 @@
 		"php":                 	">=5.4",
 		"composer/installers": 	"~1.0",
 		"kohana/core":          "3.3.1",
-		"willdurand/geocoder": "2.4.*@dev"
+		"willdurand/geocoder": "~3.1.*"
 	}
 }
