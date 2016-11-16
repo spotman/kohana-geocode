@@ -1,11 +1,8 @@
 {
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"name":        "vspvt/kohana-geocode",
+	"name":        "spotman/kohana-geocode",
 	"type":        "kohana-module",
-	"version":     "0.1.0",
-	"description": "GeoCode module for Kohana 3.3.1",
-	"homepage":    "https://github.com/vspvt/kohana-geocode",
+	"description": "GeoCode module for Kohana 3.3.*",
+	"homepage":    "https://github.com/spotman/kohana-geocode",
 	"license":     "MIT",
 	"keywords":    ["kohana", "framework", "module", "geocode"],
 	"authors": [
@@ -14,15 +11,20 @@
 			"email":    "vad.skakov@gmail.com",
 			"homepage": "https://github.com/vspvt",
 			"role":     "developer"
+		},
+		{
+			"name":     "Denis Terekhov",
+			"email":    "i.am@spotman.ru",
+			"homepage": "https://github.com/spotman",
+			"role":     "developer"
 		}
 	],
 	"support": {
-		"issues":   "https://github.com/vspvt/kohana-geocode/issues"
+		"issues":   "https://github.com/spotman/kohana-geocode/issues"
 	},
 	"require": {
 		"php":                 	">=5.4",
 		"composer/installers": 	"~1.0",
-		"kohana/core":          "3.3.1",
 		"willdurand/geocoder": "~3.1.*"
 	}
 }
